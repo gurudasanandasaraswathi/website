@@ -11510,7 +11510,7 @@ textarea.form-control {
 }
 
 .titleMalayalam {
-  font-size: calc(16px + (50 - 40) * ((100vw - 320px) / (1200 - 320)));
+  font-size: calc(16px + (60 - 40) * ((100vw - 320px) / (1200 - 320)));
   /* font-size: 22px; */
   font-weight: bold;
   margin-top: -8%;
