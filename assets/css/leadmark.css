@@ -11499,7 +11499,7 @@ textarea.form-control {
 .header.components-header {
   max-height: 450px !important;
   height: 450px;
-  dispaly: none;
+  display: none;
   background-position: center -140px;
 }
 
@@ -11510,7 +11510,7 @@ textarea.form-control {
 }
 
 .titleMalayalam {
-  font-size: calc(16px + (60 - 40) * ((100vw - 320px) / (1200 - 320)));
+  font-size: calc(18px + (50 - 40) * ((100vw - 320px) / (1200 - 320)));
   /* font-size: 22px; */
   font-weight: bold;
   margin-top: -8%;
