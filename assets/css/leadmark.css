@@ -9480,9 +9480,9 @@ button.bg-dark:focus {
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
 }
 
-.shadow {
+/* .shadow {
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2) !important;
-}
+} */
 
 .shadow-lg {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175) !important;
@@ -12891,6 +12891,14 @@ textarea.form-control {
   left: 50%;
   opacity: 1;
   visibility: visible;
+}
+
+.aboutContent {
+  text-align: justify;
+}
+
+.shadow {
+  box-shadow: 2px 3px 6px 0px lightgrey;
 }
 
 @media (max-width: 767px) {
