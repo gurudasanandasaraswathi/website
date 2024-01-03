@@ -1,5 +1,5 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-app.js";
-import { getFirestore, collection, addDoc, getDocs, doc, deleteDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
+import { getFirestore, collection, addDoc, getDocs, doc, getDoc, deleteDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
 const firebaseConfig = {
     apiKey: "AIzaSyDeSRpzVsEMsA911L-Lbqeu06nur5c18RI",
@@ -89,6 +89,7 @@ async function deleteEvent(eventId) {
 
 // Fetch events automatically when the page loads
 document.addEventListener('DOMContentLoaded', fetchEvents);
+// document.addEventListener('DOMContentLoaded', fetchCredentials);
 
 document.addEventListener('DOMContentLoaded', function () {
     // Add event listener to the button
