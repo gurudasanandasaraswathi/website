@@ -120,6 +120,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     // Assuming you have a submit button inside the modal for saving the event
-    const saveEventButton = document.querySelector('#eventForm button[type="button"]');
+    // const saveEventButton = document.querySelector('#eventForm');
+    const saveEventButton = document.getElementById('saveBtn');
     saveEventButton.addEventListener('click', handleEvent);
 });
