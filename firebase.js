@@ -87,6 +87,14 @@ async function deleteEvent(eventId) {
     }
 }
 
+const translationBtn = document.getElementById('translation');
+translationBtn.addEventListener('click', handleTranslation);
+
+function handleTranslation() {
+    document.getElementById("aboutSec1").innerHTML = "Ashramam works for the upliftment of Hindus beyond castes and political parties by embracing the values of Sanatana Dharma and Indian culture to uplift the Hindu community Spiritually, Mentally, Intellectually Physically and Financially ."
+    document.getElementById("aboutSec2").innerHTML = "On the coast of Chalakudiyar and Periyar, on the hilltop in the middle of the forest, the world's first four religious shrines (Hindu, Christian, Muslim, Jewish) are located within a radius of about two kilometers, Kottayil kovilakam Srikrishna Swamy Temple is a temple standing under Paliyam Devaswam which is still standing today as the family temple of King Villwarvattam, which is the Lord Balashrikrishna whose 1000 year old Chaturbahubimbam is enshrined. It is now managed by a temple committee with Swami Gurudasananda Saraswati as its patron."
+}
+
 // Fetch events automatically when the page loads
 document.addEventListener('DOMContentLoaded', fetchEvents);
 // document.addEventListener('DOMContentLoaded', fetchCredentials);
