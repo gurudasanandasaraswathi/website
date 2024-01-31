@@ -12901,6 +12901,11 @@ textarea.form-control {
   box-shadow: 2px 3px 6px 0px lightgrey;
 }
 
+.donation {
+  display: flex;
+  gap: 20px;
+}
+
 @media (max-width: 767px) {
   .splCard {
     flex-direction: column;
@@ -12917,6 +12922,10 @@ textarea.form-control {
 
   .mainDesc {
     padding: 5px;
+  }
+
+  .donation {
+    flex-direction: column;
   }
 }
 
