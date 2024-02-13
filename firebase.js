@@ -2,13 +2,13 @@ import { initializeApp } from "https://www.gstatic.com/firebasejs/10.7.1/firebas
 import { getFirestore, collection, addDoc, getDocs, doc, getDoc, deleteDoc } from "https://www.gstatic.com/firebasejs/10.7.1/firebase-firestore.js";
 
 const firebaseConfig = {
-    apiKey: "AIzaSyDeSRpzVsEMsA911L-Lbqeu06nur5c18RI",
-    authDomain: "sathyanantha-aashram.firebaseapp.com",
-    projectId: "sathyanantha-aashram",
-    storageBucket: "sathyanantha-aashram.appspot.com",
-    messagingSenderId: "794750153632",
-    appId: "1:794750153632:web:701dcf739bc6ed362e6ac5",
-    measurementId: "G-56RJ167HBM"
+    apiKey: "AIzaSyB9b4q5VlmHFggJ1o-PFATssi6CWDJNcIk",
+    authDomain: "sathyanantha-aashram-522df.firebaseapp.com",
+    projectId: "sathyanantha-aashram-522df",
+    storageBucket: "sathyanantha-aashram-522df.appspot.com",
+    messagingSenderId: "1054494763112",
+    appId: "1:1054494763112:web:ccf03927fa6e64321673dd",
+    measurementId: "G-Y49Z15NJJ9"
 }
 
 // Initialize Firebase app (already done in your code)
